@@ -8,6 +8,7 @@ This project implements a Q-learning agent that:
 - Detects mastery via average reward over 50 episodes.
 - Evolves to multiplication (e.g., 4 * 3) or resets to addition if maxed out.
 - Runs forever, printing progress every 10 episodes.
+- Easily extendible into learning any task, via API, etc.
 
 ## Running
 1. Ensure Rust is installed (`cargo` available).
